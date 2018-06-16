@@ -1,3 +1,46 @@
 body {
     text-align: center
 }
+h2 {
+    text-align: left
+}
+h3{
+    display:inline-block;
+
+}
+button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+    }
+
+
+
+input {
+    margin: 0 auto;
+    
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align:right;
+    color: #458b00;
+    
+}
+
+

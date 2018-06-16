@@ -3,22 +3,19 @@
     <head>
         <title>fast test</title>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css.css">
     </head>
     <body>
-        <h1> Writ Your BirthDay </h1>
-        <input placeholder="Year" type="text" id="ybd" size="4"> <span>/</span> 
-        <input placeholder="Month" type="text" id="mbd" size="2"> <span>/</span>
-        <input placeholder="Day" type="text" id="dbd" size="2"> 
-        <h1> Writ Your Current Day </h1>
-        <input placeholder="Year" type="text" id="ycd" size="4"> <span>/</span> 
-        <input placeholder="Month" type="text" id="mcd" size="2"> <span>/</span>
-        <input placeholder="Day" type="text" id="dcd" size="2">
+        <h1> Write Your BirthDay </h1>
+        <input type="date" id="date">
         <br>
         <br>
-        <br>
-        <button type="button" onclick="newClacul()">Enter</button>
+        <button class="button" onclick="newClacul()"><span>Enter</span></button>
         
+        <h2>Your Age Details :</h2>
+        <br>
+        <div id="showTime" ></div>
         
        
         <script src="main.js"></script>
